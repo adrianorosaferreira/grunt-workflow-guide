@@ -1,0 +1,29 @@
+{
+  "name": "grunt-workflow-demo",
+  "version": "1.0.0",
+  "description": "Workflow with grunt!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianorosaferreira/grunt-workflow-guide.git"
+  },
+  "author": "AdrianoFerreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianorosaferreira/grunt-workflow-guide/issues"
+  },
+  "homepage": "https://github.com/adrianorosaferreira/grunt-workflow-guide#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
