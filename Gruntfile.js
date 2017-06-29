@@ -17,6 +17,7 @@ module.exports = function(grunt) {
 	*/
 	require('./grunt_tasks/sass.js')(grunt, config);
 	require('./grunt_tasks/javascript.js')(grunt, config);
+	require('./grunt_tasks/images.js')(grunt, config);
 	
 	/*
  	Register our tasks 
@@ -25,6 +26,8 @@ module.exports = function(grunt) {
 		'sass',
 		'concat',
 		'jshint',
+		'copy',
+		'responsive_images',
 		'watch'
 	]);
 
