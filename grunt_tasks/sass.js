@@ -1,7 +1,3 @@
-/*
-This will contain our Sass grunt tasks
- */
-
 module.exports = function (grunt, config) {
   grunt.config.merge({
     sass: {
@@ -16,11 +12,11 @@ module.exports = function (grunt, config) {
           important: 2
         },
         src: "<%= sass.dist.dest %>"
-      }
+        }
     },
     watch: {
       sass: {
-		files: config.scssDir + "**/*.scss",
+        files: config.scssDir + "**/*.scss",
         tasks: [
           "sass",
           "csslint"
@@ -29,3 +25,4 @@ module.exports = function (grunt, config) {
     }
   });
 };
+
